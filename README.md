@@ -1,1 +1,5 @@
-# angular-material-admindashboard
+# Admin Dashboard (Angular + Material)
+
+## Install
+
+`npm install`
