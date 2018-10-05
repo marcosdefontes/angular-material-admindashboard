@@ -1,0 +1,28 @@
+@import '../variables';
+
+:host {
+   display: grid;
+   height: 100%;
+   grid-template-columns: $larguraMenu auto;
+   grid-template-rows: $alturaHeader auto $alturaFooter;
+   grid-gap: 0px;
+   grid-template-areas: 'header header' 'main-menu container' 'footer footer';
+   background: #eee linear-gradient(to right bottom, #eee, #e6e6e6) repeat scroll 0 0;
+
+   app-header {
+      grid-area: header;
+   }
+
+   aside {
+      grid-area: main-menu;
+   }
+
+   main {
+      grid-area: container;
+      padding: 24px 18px 6px 28px;
+   }
+
+   app-footer {
+      grid-area: footer;
+   }
+}

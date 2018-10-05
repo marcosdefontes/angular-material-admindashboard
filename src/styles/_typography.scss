@@ -1,0 +1,17 @@
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: $corLink;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+html {
+  font-family: $primaryFontFamily;
+  font-weight: normal;
+}

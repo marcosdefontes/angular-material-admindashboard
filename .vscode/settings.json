@@ -1,0 +1,20 @@
+{
+   // Place your settings in this file to overwrite default and user settings.
+   "editor.formatOnSave": true,
+   "editor.tabSize": 3,
+   "editor.wordWrap": "wordWrapColumn",
+   "editor.wordWrapColumn": 100,
+   "editor.formatOnPaste": true,
+   "workbench.commandPalette.preserveInput": true,
+   "files.trimTrailingWhitespace": true,
+   "files.insertFinalNewline": true,
+   "files.trimFinalNewlines": true,
+   "html.format.wrapLineLength": 100,
+   "vsicons.projectDetection.autoReload": true,
+   "prettier.singleQuote": true,
+   "prettier.printWidth": 100,
+   "prettier.tabWidth": 3,
+   "javascript.preferences.quoteStyle": "single",
+   "typescript.preferences.quoteStyle": "single",
+   "git.ignoreLimitWarning": true
+}

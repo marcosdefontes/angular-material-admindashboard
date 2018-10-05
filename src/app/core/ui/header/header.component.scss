@@ -1,0 +1,32 @@
+@import '../../variables';
+
+$larguraLogoSerpro: 105px;
+
+:host {
+   display: grid;
+   grid-template-columns: $larguraMenu auto 180px;
+   grid-template-rows: 1fr;
+
+   .serpro-logo {
+      grid-column: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      img {
+         max-width: $larguraLogoSerpro;
+      }
+   }
+   .page-title {
+      grid-column: 2;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      h1 {
+         font-size: 1.7rem;
+      }
+   }
+   .user-menu {
+      grid-column: 3;
+   }
+}
