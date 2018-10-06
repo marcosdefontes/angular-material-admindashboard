@@ -3,10 +3,10 @@
 :host {
    display: grid;
    height: 100%;
-   grid-template-columns: $larguraMenu auto;
-   grid-template-rows: $alturaHeader auto $alturaFooter;
+   grid-template-columns: $menuWidth auto;
+   grid-template-rows: $headerHeight auto $footerHeight;
    grid-gap: 0px;
-   grid-template-areas: 'header header' 'main-menu container' 'footer footer';
+   grid-template-areas: 'header header''main-menu container''footer footer';
    background: #eee linear-gradient(to right bottom, #eee, #e6e6e6) repeat scroll 0 0;
 
    app-header {

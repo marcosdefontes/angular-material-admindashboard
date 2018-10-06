@@ -1,22 +1,32 @@
+@import '../../variables';
+
 :host {
    display: grid;
    grid-template-columns: 50% 50%;
    background: #d8d8d8;
+
    img {
       max-width: 130px;
+      max-height: $footerHeight - 40px;
    }
+
    section {
       align-self: center;
+
+      a {
+         padding: 0 5px;
+      }
+
       &:first-child {
          justify-self: start;
          padding-left: 40px;
       }
+
       &:last-child {
          justify-self: end;
          padding-right: 40px;
-         a {
-            padding: 0 5px;
-         }
+
+
       }
    }
 }
